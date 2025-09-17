@@ -163,7 +163,7 @@ export class V2ex {
      */
     const _getTopicReplies = ($: ReturnType<typeof cheerio.load>): TopicReply[] => {
       const replies: TopicReply[] = [];
-      $('#Main > .box')
+      $('#Main > .box[id!="topic-tip-box"]')
         .eq(1)
         .children('div[id].cell')
         .each((_, element) => {

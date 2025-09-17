@@ -24,6 +24,7 @@ export default class ExploreProvider extends BaseProvider {
       createRoot('最热', 'hot'),
       createRoot('全部', 'all'),
       createRoot('R2', 'r2'),
+      createRoot('VXNA', 'xna'),
       createRoot('节点', 'nodes')
     ];
   }
