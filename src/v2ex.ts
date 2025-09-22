@@ -148,7 +148,7 @@ export class V2ex {
 
     topic.replyCount =
       parseInt(
-        $('#Main > .box')
+        $('#Main > .box[id!="topic-tip-box"]')
           .eq(1)
           .children('div.cell')
           .eq(0)
